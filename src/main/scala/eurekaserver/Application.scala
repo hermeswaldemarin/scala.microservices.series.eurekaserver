@@ -2,7 +2,7 @@ package eurekaserver
 
 import org.springframework.boot.{ApplicationRunner, SpringApplication}
 import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.cloud.config.server.EnableConfigServer
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer
 import org.springframework.context.annotation.{Bean, ComponentScan}
 import org.springframework.web.client.RestTemplate
 
